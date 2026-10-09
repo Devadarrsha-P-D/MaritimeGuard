@@ -9,7 +9,7 @@
 
 ---
 
-## 🌊 1. Executive Summary & Problem Context
+## 1. Executive Summary & Problem Context
 
 In the narrow, highly contested marine corridor of the **Palk Strait** and the **Gulf of Mannar** separating Tamil Nadu (India) and Sri Lanka, thousands of traditional artisanal fishermen operate out of historical fishing hubs like **Rameswaram, Pamban, Mandapam, and Thangachimadam**.
 
@@ -23,7 +23,7 @@ Due to strong, shifting sea currents, fog, lack of navigational instrumentation,
 
 ---
 
-## 🏗️ 2. System Architecture
+## 2. System Architecture
 
 ```mermaid
 flowchart TD
@@ -80,7 +80,7 @@ flowchart TD
 
 ---
 
-## 🔄 3. Alert & Emergency Decision Flowchart
+## 3. Alert & Emergency Decision Flowchart
 
 ```mermaid
 flowchart TD
@@ -118,7 +118,7 @@ flowchart TD
 
 ---
 
-## ⚓ 4. Key Functional Modules
+## 4. Key Functional Modules
 
 ### 🗺️ 1. Interactive Cartographic Map
 - **Interactive Multi-Layer Engine**: Leaflet with custom tiles:
@@ -171,7 +171,7 @@ flowchart TD
 
 ---
 
-## 🗄️ 5. Database Schema (SQLite)
+## 5. Database Schema (SQLite)
 
 | Table | Purpose | Key Columns |
 | :--- | :--- | :--- |
@@ -183,7 +183,7 @@ flowchart TD
 
 ---
 
-## ⚡ 6. REST API Reference
+## 6. REST API Reference
 
 ### Fleet & Telemetry
 - `GET /api/boats` — List all registered vessels with current GPS coordinates and statuses.
@@ -209,7 +209,7 @@ flowchart TD
 
 ---
 
-## 💻 7. Installation & Quickstart
+## 7. Installation & Quickstart
 
 ### Prerequisites
 - **Node.js** >= 18.x
@@ -267,7 +267,7 @@ npm run build
 
 ---
 
-## 🛠️ 8. Technology Stack
+## 8. Technology Stack
 
 | Layer | Technology |
 | :--- | :--- |
@@ -283,6 +283,6 @@ npm run build
 
 ---
 
-## 📜 9. License & Attribution
+## 9. License & Attribution
 - Open-sourced under the **ISC License**.
 - Developed as a humanitarian hackathon safety prototype for fishermen operating in Tamil Nadu coastal communities.
